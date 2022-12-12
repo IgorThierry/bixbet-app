@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default registerRootComponent(App)
+export default registerRootComponent(App);

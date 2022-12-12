@@ -1,6 +1,5 @@
 {
   "src/**/!(*test).ts?(x)": [
-    "eslint --fix",
-    "git add"
+    "eslint --fix"
   ]
 }
