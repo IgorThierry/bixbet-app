@@ -58,11 +58,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lintstaged && npm run test -- --bail",
-      "commit-msg": "npx --no -- commitlint --edit ${1}"
-    }
   }
 }
