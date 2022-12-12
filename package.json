@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "eslint src --ext .ts,.tsx",
-    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "lint-fix": "eslint src --ext .ts,.tsx --fix",
     "test": "jest"
   },
   "jest": {
@@ -39,6 +39,8 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@testing-library/jest-native": "^5.3.2",
     "@testing-library/react-native": "^11.5.0",
     "@types/jest": "^29.2.4",
@@ -56,6 +58,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.2",
     "jest": "^26.6.3",
     "jest-expo": "^47.0.1",
     "prettier": "^2.8.1",
