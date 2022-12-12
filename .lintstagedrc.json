@@ -1,5 +1,6 @@
 {
   "src/**/!(*test).ts?(x)": [
-    "eslint --fix"
+    "eslint --fix",
+    "npm run test"
   ]
 }
