@@ -10,6 +10,7 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint-fix": "eslint src --ext .ts,.tsx --fix",
     "test": "jest",
+    "test:staged": "jest --bail --findRelatedTests",
     "commit": "cz",
     "lintstaged": "lint-staged",
     "prepare": "husky install"
