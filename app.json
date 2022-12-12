@@ -1,6 +1,6 @@
 {
   "expo": {
-    "entryPoint": "./src/App.tsx",
+    "entryPoint": "./src/index.ts",
     "name": "bixbet",
     "slug": "bixbet",
     "version": "1.0.0",

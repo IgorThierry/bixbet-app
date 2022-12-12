@@ -1,7 +1,7 @@
 {
   "name": "bixbet",
   "version": "1.0.0",
-  "main": "./src/App.tsx",
+  "main": "./src/index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,23 +12,6 @@
     "test": "jest",
     "commit": "cz",
     "lintstaged": "lint-staged"
-  },
-  "jest": {
-    "preset": "jest-expo",
-    "setupFilesAfterEnv": [
-      "@testing-library/jest-native/extend-expect"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
-    ],
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "**/*.{js,jsx}",
-      "!**/coverage/**",
-      "!**/node_modules/**",
-      "!**/babel.config.js",
-      "!**/jest.setup.js"
-    ]
   },
   "dependencies": {
     "@types/react": "~18.0.24",
