@@ -1,5 +1,6 @@
 {
   "src/**/!(*test).{ts,tsx}": [
-    "eslint --fix"
+    "eslint --fix",
+    "cross-env CI=true && npm run test -- --bail --findRelatedTests"
   ]
 }
