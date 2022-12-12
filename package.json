@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint-fix": "eslint src --ext .ts,.tsx --fix",
     "test": "jest",
-    "commit": "cz"
+    "commit": "cz",
+    "lintstaged": "lint-staged"
   },
   "jest": {
     "preset": "jest-expo",
